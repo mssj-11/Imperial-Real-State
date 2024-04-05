@@ -214,7 +214,7 @@ header.transparente nav a:hover {
 }
 
 #burger.abierto .barra {
-    background-color: white;
+    background-color: #a97c50;
 }
 
 #burger.abierto .barra.superior {
@@ -261,6 +261,7 @@ header.transparente nav a:hover {
 }
 
 .menu nav {
+    margin-top: 50px;
     padding: 1rem;
     display: flex;
     flex-direction: column;
@@ -271,6 +272,10 @@ header.transparente nav a:hover {
     color: rgba(255, 255, 255, 0.75);
     font-size: 1.1rem;
     transition: 300ms all ease-in-out;
+}
+
+.menu nav a.activo {
+    font-weight: bold;
 }
 
 .menu nav a:hover {
